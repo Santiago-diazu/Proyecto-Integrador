@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+  
+  .encabezado {
+    position: fixed;
+    background-color: #324001;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .texcampo {
+    font-family: 'Arial Black', sans-serif;
+    color: #c0d904;
+    font-size: 170%;
+    margin-left: 20px;
+  }
+  
+  .areabuscar {
+    width: 100%;
+    position: relative; 
+    left: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  .barrabusqueda {
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    height: 20%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    margin-left: 70px;
+    
+  }
+  
+  .botonbusqueda {
+    background-color:#c0d904;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    color: white;
+  }
+  .texboton{
+    color: aliceblue;
+  }
+  
+
+
+  
+  
+  
