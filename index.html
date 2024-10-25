@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campo digital</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Campo digital</h1>
+
     <div class="container">
+        <h1>Seleccione el método de Pago</h1>
+        <form id="forma-de-pago">
+            <label for="metodo-de-pago">Método de Pago:</label>
+            <select id="metodo-de-pago" required>
+                <option value="">Seleccione</option>
+                <option value="tarjeta-credito">Tarjeta de Crédito</option>
+                <option value="tarjeta-debito">Tarjeta de Débito</option>
+                <option value="pse">PSE</option>
+            </select>
+
+            <div id="tc" class="hidden">
+                <h2>Pago con Tarjeta de Crédito</h2>
+                <label for="nombre-tc">Nombre en la tarjeta:</label>
+                <input type="text" id="nombre-tc" required> <br> <br>
+                
+                <label for="numero-tc">Número de tarjeta:</label>
+                <input type="text" id="numero-tc" required> <br> <br>
+                
+                <label for="expiracion-tc">Fecha de expiración (MM/AA):</label>
+                <input type="text" id="expiracion-tc" placeholder="MM/AA" required> <br> <br>
+                
+                <label for="cvv-tc">CVV:</label>
+                <input type="text" id="cvv-tc" required>
+            </div>
+
+            <div id="td" class="hidden">
+                <h2>Pago con Tarjeta de Débito</h2>
+                <label for="numero-td">Número de tarjeta:</label>
+                <input type="text" id="numero-td" required> <br> <br>
+
+                <label for="expiracion-td">Fecha de expiración (MM/AA):</label>
+                <input type="text" id="expiracion-td" placeholder="MM/AA" required> <br> <br>
+            </div>
+
+            <div id="pse" class="hidden">
+                <h2>Pago por PSE</h2>
+                <label for="bancos">Seleccione su banco:</label>
+                <select id="bancos" required>
+                    <option value="">Seleccione</option>
+                    <option value="banco-1">Bancolombia</option>
+                    <option value="banco-2">BBVA</option>
+                    <option value="banco-3">Davivienda</option>
+                </select>
+            </div>
+
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+v class="container">
         <div class="wraper">
         <h2>Opiniones  y Calificaciones</h2>
         <form action="#"></form>
