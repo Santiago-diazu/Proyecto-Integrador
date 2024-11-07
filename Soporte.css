@@ -1,0 +1,118 @@
+body{
+    background-color: #202426;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #202426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.title{
+    color: white;
+}
+
+main{
+    width: 100%;
+}
+
+.contact{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texcont{
+    display: flex;
+    gap: 5px;
+    height: 25px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.dato{
+    color: #9da65d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertencia{
+    font-size: medium;
+    color: white;
+}
+
+.formcamp{
+    color: #9da65d;
+    display: flex;
+    background-color: #484b4b;
+    width: 35%;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.space{
+    width: 70%;
+    height: 10%;
+    border-radius: 5px;
+}
+
+.t{
+    height: 30%;
+}
+a{
+    color: #9da65d;
+}
+
+.botonspace{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding: 5px;
+}
+
+.boton{
+    background-color: #9da65d;
+    color: white;
+    border-radius: 2px;
+    border: #9da65d;
+    width: 60px;
+    height: 30px;
+
+}
