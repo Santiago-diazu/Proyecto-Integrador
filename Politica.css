@@ -1,0 +1,28 @@
+body{
+    background-color: #202426;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 80%;
+}
+
+.titlebox{
+    color: white;
+}
+
+.subtitle{
+    color: #9da65d;
+}
+
+.parrafo{
+    color: white;
+}
