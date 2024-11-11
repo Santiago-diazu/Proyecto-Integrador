@@ -1,0 +1,220 @@
+body{
+    background-color: #202426;
+    font-family: 'Sulphur Point', sans-serif;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+    font-family: 'Sulphur Point', sans-serif;
+    height: 40px;
+    width: 120px;
+    font-size: 11px;
+}
+
+button:hover {
+    background-color:  #5C6333;
+    color: #F2F2F2;
+}
+
+.barra-incio {
+    display: flex;
+    align-items: center;
+    background-color: #202426;
+    padding: 0 20px;
+    height: 110px;
+    position: fixed;
+    z-index: 1000; 
+    width: 100%;
+}
+
+.botones-inicio {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 45px;
+    gap: 25px;
+}
+
+.favoritos-logo{
+    height: 25px;
+}
+
+.carro-compras-logo{
+    height: 25px;
+}
+
+.boton-inicio {
+    background-color: #9DA65D;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+  
+nav a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.encabezado{
+    background-color: #484b4d;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000; 
+    width: 100%;
+    margin-top: 110px;
+}
+
+.barrabusqueda{
+    font-family: 'Sulphur Point', sans-serif;
+    height: 35px;
+    width: 500px;
+    font-size: 14px;
+    border-radius: 5px; 
+}
+
+.botonbusqueda {
+    background-color: #484b4d;
+    margin: 0%;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.corp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.corp-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin: 30px;
+    margin-top: 400px;
+}
+
+.container-carrusel{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+.carousel{
+    width:70%;
+    border: 7px solid #484b4d;
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.infopr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.texinfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    padding: 40px;
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texinfo h2{
+    color: #9da65d;
+}
+
+.botonesp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    background-color: #484b4d;
+}
+
+.btn-group{
+    display: flex;
+}
+
+.agg-boton {
+    gap: none;
+}
+
+.btn{
+    border-radius: 10px;
+    color: #f2f2f2;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+.enmboton{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+.comprarboton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9DA65D;
+    color: #F2F2F2;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.comprarboton h3{
+    font-size: medium;
+}
+
+.card-footer .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+.btn:hover{
+background-color: #202426;
+color: #f2f2f2;
+}

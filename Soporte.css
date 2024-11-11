@@ -3,10 +3,16 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: Arial;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+h1 { font-family: 'Sulphur Point', sans-serif; }
+
+h2, h3, p { font-family: 'Montserrat', sans-serif; 
+    font-weight: normal;
+}
+
 
 header{
     height: 100px;
@@ -26,7 +32,7 @@ header{
 }
 
 .title{
-    color: white;
+    color: #f4f4f4;
 }
 
 main{
@@ -51,7 +57,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #f4f4f4;
 }
 
 .dato{
@@ -70,8 +76,7 @@ main{
 }
 
 .advertencia{
-    font-size: medium;
-    color: white;
+    color: #f4f4f4;
 }
 
 .formcamp{
@@ -87,6 +92,11 @@ main{
     padding: 10px;
     margin: 5px;
 }
+
+.formcamp label{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .space{
     width: 70%;
     height: 10%;
@@ -109,7 +119,7 @@ a{
 
 .boton{
     background-color: #9da65d;
-    color: white;
+    color: #f4f4f4;
     border-radius: 2px;
     border: #9da65d;
     width: 60px;

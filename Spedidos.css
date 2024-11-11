@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: Arial;
+    font-family: 'Sulphur Point', sans-serif;
     flex-direction: column;
     height: 100vh;
     margin: 0;

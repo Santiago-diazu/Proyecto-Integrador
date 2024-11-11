@@ -3,10 +3,14 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: Arial;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+h1 { font-family: 'Sulphur Point', sans-serif; }
+
+h2, h3, p { font-family: 'Montserrat', sans-serif; }
+
 header{
     display: flex;
     justify-content: center;
